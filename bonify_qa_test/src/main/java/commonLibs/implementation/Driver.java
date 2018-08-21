@@ -5,7 +5,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
+import org.openqa.selenium.firefox.FirefoxDriver;
 import commonLibs.contracts.IDriver;
 
 public class Driver implements IDriver {
@@ -46,6 +46,18 @@ public class Driver implements IDriver {
 			System.setProperty("webdriver.chrome.driver",
 					currentDir + pathSeparator + "drivers" + pathSeparator + "chromedriver.exe");
 			driver = new ChromeDriver();
+		}
+		else if ((browserType.equalsIgnoreCase("firefox")) && os.contains("mac")){
+			System.setProperty("webdriver.gecko.driver",
+					currentDir + pathSeparator + "drivers" + pathSeparator + "geckodriver");
+			driver = new FirefoxDriver();
+			
+		}
+		else if ((browserType.equalsIgnoreCase("firefox")) && os.contains("windows")){
+			System.setProperty("webdriver.gecko.driver",
+					currentDir + pathSeparator + "drivers" + pathSeparator + "geckodriver.exe");
+			driver = new FirefoxDriver();
+			
 		}
          else {
 			throw new Exception("Invalid Browser type : " + browserType);

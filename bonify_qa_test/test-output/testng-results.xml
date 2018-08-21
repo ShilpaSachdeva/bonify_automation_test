@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="28295" started-at="2018-08-21T20:44:06Z" finished-at="2018-08-21T20:44:35Z">
+  <suite name="Default suite" duration-ms="33144" started-at="2018-08-21T21:07:14Z" finished-at="2018-08-21T21:07:47Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="28295" started-at="2018-08-21T20:44:06Z" finished-at="2018-08-21T20:44:35Z">
+    <test name="Default test" duration-ms="33144" started-at="2018-08-21T21:07:14Z" finished-at="2018-08-21T21:07:47Z">
       <class name="com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest">
-        <test-method status="PASS" signature="initialization()[pri:0, instance:com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest@26be92ad]" name="initialization" is-config="true" duration-ms="224" started-at="2018-08-22T02:14:06Z" finished-at="2018-08-22T02:14:06Z">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest@26be92ad]" name="initialization" is-config="true" duration-ms="158" started-at="2018-08-22T02:37:14Z" finished-at="2018-08-22T02:37:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest@26be92ad]" name="invokeBrowser" is-config="true" duration-ms="14294" started-at="2018-08-22T02:14:06Z" finished-at="2018-08-22T02:14:21Z">
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest@26be92ad]" name="invokeBrowser" is-config="true" duration-ms="14436" started-at="2018-08-22T02:37:14Z" finished-at="2018-08-22T02:37:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invokeBrowser -->
-        <test-method status="PASS" signature="verifyLoginPage()[pri:0, instance:com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest@26be92ad]" name="verifyLoginPage" duration-ms="4345" started-at="2018-08-22T02:14:21Z" finished-at="2018-08-22T02:14:25Z">
+        <test-method status="PASS" signature="verifyLoginPage()[pri:0, instance:com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest@26be92ad]" name="verifyLoginPage" duration-ms="3879" started-at="2018-08-22T02:37:28Z" finished-at="2018-08-22T02:37:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPage -->
-        <test-method status="PASS" signature="afterAMethod(org.testng.ITestResult)[pri:0, instance:com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest@26be92ad]" name="afterAMethod" is-config="true" duration-ms="1" started-at="2018-08-22T02:14:25Z" finished-at="2018-08-22T02:14:25Z">
+        <test-method status="PASS" signature="afterAMethod(org.testng.ITestResult)[pri:0, instance:com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest@26be92ad]" name="afterAMethod" is-config="true" duration-ms="1" started-at="2018-08-22T02:37:32Z" finished-at="2018-08-22T02:37:32Z">
           <params>
             <param index="0">
               <value>
@@ -30,11 +30,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterAMethod -->
-        <test-method status="PASS" signature="verifySuccessfulLogin()[pri:1, instance:com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest@26be92ad]" name="verifySuccessfulLogin" duration-ms="1584" started-at="2018-08-22T02:14:25Z" finished-at="2018-08-22T02:14:27Z">
+        <test-method status="PASS" signature="verifySuccessfulLogin()[pri:1, instance:com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest@26be92ad]" name="verifySuccessfulLogin" duration-ms="1585" started-at="2018-08-22T02:37:32Z" finished-at="2018-08-22T02:37:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySuccessfulLogin -->
-        <test-method status="PASS" signature="afterAMethod(org.testng.ITestResult)[pri:0, instance:com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest@26be92ad]" name="afterAMethod" is-config="true" duration-ms="0" started-at="2018-08-22T02:14:27Z" finished-at="2018-08-22T02:14:27Z">
+        <test-method status="PASS" signature="afterAMethod(org.testng.ITestResult)[pri:0, instance:com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest@26be92ad]" name="afterAMethod" is-config="true" duration-ms="1" started-at="2018-08-22T02:37:34Z" finished-at="2018-08-22T02:37:34Z">
           <params>
             <param index="0">
               <value>
@@ -45,11 +45,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterAMethod -->
-        <test-method status="PASS" signature="verifySuccessfulLogout()[pri:2, instance:com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest@26be92ad]" name="verifySuccessfulLogout" duration-ms="1384" started-at="2018-08-22T02:14:27Z" finished-at="2018-08-22T02:14:28Z">
+        <test-method status="PASS" signature="verifySuccessfulLogout()[pri:2, instance:com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest@26be92ad]" name="verifySuccessfulLogout" duration-ms="1377" started-at="2018-08-22T02:37:34Z" finished-at="2018-08-22T02:37:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySuccessfulLogout -->
-        <test-method status="PASS" signature="afterAMethod(org.testng.ITestResult)[pri:0, instance:com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest@26be92ad]" name="afterAMethod" is-config="true" duration-ms="0" started-at="2018-08-22T02:14:28Z" finished-at="2018-08-22T02:14:28Z">
+        <test-method status="PASS" signature="afterAMethod(org.testng.ITestResult)[pri:0, instance:com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest@26be92ad]" name="afterAMethod" is-config="true" duration-ms="1" started-at="2018-08-22T02:37:35Z" finished-at="2018-08-22T02:37:35Z">
           <params>
             <param index="0">
               <value>
@@ -60,11 +60,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterAMethod -->
-        <test-method status="PASS" signature="verifyRegistrationPage()[pri:3, instance:com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest@26be92ad]" name="verifyRegistrationPage" duration-ms="3071" started-at="2018-08-22T02:14:28Z" finished-at="2018-08-22T02:14:31Z">
+        <test-method status="PASS" signature="verifyRegistrationPage()[pri:3, instance:com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest@26be92ad]" name="verifyRegistrationPage" duration-ms="8147" started-at="2018-08-22T02:37:35Z" finished-at="2018-08-22T02:37:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegistrationPage -->
-        <test-method status="PASS" signature="afterAMethod(org.testng.ITestResult)[pri:0, instance:com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest@26be92ad]" name="afterAMethod" is-config="true" duration-ms="1" started-at="2018-08-22T02:14:31Z" finished-at="2018-08-22T02:14:31Z">
+        <test-method status="PASS" signature="afterAMethod(org.testng.ITestResult)[pri:0, instance:com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest@26be92ad]" name="afterAMethod" is-config="true" duration-ms="1" started-at="2018-08-22T02:37:43Z" finished-at="2018-08-22T02:37:43Z">
           <params>
             <param index="0">
               <value>
@@ -75,11 +75,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterAMethod -->
-        <test-method status="PASS" signature="verifyBlankEmailId()[pri:4, instance:com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest@26be92ad]" name="verifyBlankEmailId" duration-ms="368" started-at="2018-08-22T02:14:31Z" finished-at="2018-08-22T02:14:31Z">
+        <test-method status="PASS" signature="verifyBlankEmailId()[pri:4, instance:com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest@26be92ad]" name="verifyBlankEmailId" duration-ms="439" started-at="2018-08-22T02:37:43Z" finished-at="2018-08-22T02:37:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBlankEmailId -->
-        <test-method status="PASS" signature="afterAMethod(org.testng.ITestResult)[pri:0, instance:com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest@26be92ad]" name="afterAMethod" is-config="true" duration-ms="0" started-at="2018-08-22T02:14:31Z" finished-at="2018-08-22T02:14:31Z">
+        <test-method status="PASS" signature="afterAMethod(org.testng.ITestResult)[pri:0, instance:com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest@26be92ad]" name="afterAMethod" is-config="true" duration-ms="0" started-at="2018-08-22T02:37:44Z" finished-at="2018-08-22T02:37:44Z">
           <params>
             <param index="0">
               <value>
@@ -90,11 +90,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterAMethod -->
-        <test-method status="PASS" signature="verifyBlankPassword()[pri:5, instance:com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest@26be92ad]" name="verifyBlankPassword" duration-ms="388" started-at="2018-08-22T02:14:31Z" finished-at="2018-08-22T02:14:32Z">
+        <test-method status="PASS" signature="verifyBlankPassword()[pri:5, instance:com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest@26be92ad]" name="verifyBlankPassword" duration-ms="382" started-at="2018-08-22T02:37:44Z" finished-at="2018-08-22T02:37:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBlankPassword -->
-        <test-method status="PASS" signature="afterAMethod(org.testng.ITestResult)[pri:0, instance:com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest@26be92ad]" name="afterAMethod" is-config="true" duration-ms="1" started-at="2018-08-22T02:14:32Z" finished-at="2018-08-22T02:14:32Z">
+        <test-method status="PASS" signature="afterAMethod(org.testng.ITestResult)[pri:0, instance:com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest@26be92ad]" name="afterAMethod" is-config="true" duration-ms="0" started-at="2018-08-22T02:37:44Z" finished-at="2018-08-22T02:37:44Z">
           <params>
             <param index="0">
               <value>
@@ -105,11 +105,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterAMethod -->
-        <test-method status="PASS" signature="verifyBlankEmailPassword()[pri:6, instance:com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest@26be92ad]" name="verifyBlankEmailPassword" duration-ms="193" started-at="2018-08-22T02:14:32Z" finished-at="2018-08-22T02:14:32Z">
+        <test-method status="PASS" signature="verifyBlankEmailPassword()[pri:6, instance:com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest@26be92ad]" name="verifyBlankEmailPassword" duration-ms="243" started-at="2018-08-22T02:37:44Z" finished-at="2018-08-22T02:37:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBlankEmailPassword -->
-        <test-method status="PASS" signature="afterAMethod(org.testng.ITestResult)[pri:0, instance:com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest@26be92ad]" name="afterAMethod" is-config="true" duration-ms="1" started-at="2018-08-22T02:14:32Z" finished-at="2018-08-22T02:14:32Z">
+        <test-method status="PASS" signature="afterAMethod(org.testng.ITestResult)[pri:0, instance:com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest@26be92ad]" name="afterAMethod" is-config="true" duration-ms="0" started-at="2018-08-22T02:37:44Z" finished-at="2018-08-22T02:37:44Z">
           <params>
             <param index="0">
               <value>
@@ -120,11 +120,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterAMethod -->
-        <test-method status="PASS" signature="verifyInvalidEmail()[pri:7, instance:com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest@26be92ad]" name="verifyInvalidEmail" duration-ms="246" started-at="2018-08-22T02:14:32Z" finished-at="2018-08-22T02:14:32Z">
+        <test-method status="PASS" signature="verifyInvalidEmail()[pri:7, instance:com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest@26be92ad]" name="verifyInvalidEmail" duration-ms="285" started-at="2018-08-22T02:37:44Z" finished-at="2018-08-22T02:37:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyInvalidEmail -->
-        <test-method status="PASS" signature="afterAMethod(org.testng.ITestResult)[pri:0, instance:com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest@26be92ad]" name="afterAMethod" is-config="true" duration-ms="0" started-at="2018-08-22T02:14:32Z" finished-at="2018-08-22T02:14:32Z">
+        <test-method status="PASS" signature="afterAMethod(org.testng.ITestResult)[pri:0, instance:com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest@26be92ad]" name="afterAMethod" is-config="true" duration-ms="0" started-at="2018-08-22T02:37:45Z" finished-at="2018-08-22T02:37:45Z">
           <params>
             <param index="0">
               <value>
@@ -135,11 +135,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterAMethod -->
-        <test-method status="PASS" signature="verifyInvalidPassword()[pri:8, instance:com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest@26be92ad]" name="verifyInvalidPassword" duration-ms="203" started-at="2018-08-22T02:14:32Z" finished-at="2018-08-22T02:14:32Z">
+        <test-method status="PASS" signature="verifyInvalidPassword()[pri:8, instance:com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest@26be92ad]" name="verifyInvalidPassword" duration-ms="216" started-at="2018-08-22T02:37:45Z" finished-at="2018-08-22T02:37:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyInvalidPassword -->
-        <test-method status="PASS" signature="afterAMethod(org.testng.ITestResult)[pri:0, instance:com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest@26be92ad]" name="afterAMethod" is-config="true" duration-ms="1" started-at="2018-08-22T02:14:32Z" finished-at="2018-08-22T02:14:32Z">
+        <test-method status="PASS" signature="verifyUserRegistrationStepOne()[pri:9, instance:com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest@26be92ad]" name="verifyUserRegistrationStepOne" duration-ms="503" started-at="2018-08-22T02:37:45Z" finished-at="2018-08-22T02:37:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserRegistrationStepOne -->
+        <test-method status="PASS" signature="afterAMethod(org.testng.ITestResult)[pri:0, instance:com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest@26be92ad]" name="afterAMethod" is-config="true" duration-ms="0" started-at="2018-08-22T02:37:45Z" finished-at="2018-08-22T02:37:45Z">
           <params>
             <param index="0">
               <value>
@@ -150,11 +154,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterAMethod -->
-        <test-method status="PASS" signature="verifyUserRegistrationStepOne()[pri:9, instance:com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest@26be92ad]" name="verifyUserRegistrationStepOne" duration-ms="475" started-at="2018-08-22T02:14:32Z" finished-at="2018-08-22T02:14:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUserRegistrationStepOne -->
-        <test-method status="PASS" signature="afterAMethod(org.testng.ITestResult)[pri:0, instance:com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest@26be92ad]" name="afterAMethod" is-config="true" duration-ms="1" started-at="2018-08-22T02:14:33Z" finished-at="2018-08-22T02:14:33Z">
+        <test-method status="PASS" signature="afterAMethod(org.testng.ITestResult)[pri:0, instance:com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest@26be92ad]" name="afterAMethod" is-config="true" duration-ms="0" started-at="2018-08-22T02:37:45Z" finished-at="2018-08-22T02:37:45Z">
           <params>
             <param index="0">
               <value>
@@ -165,7 +165,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterAMethod -->
-        <test-method status="PASS" signature="verifyUserRegistrationStepTwo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:10, instance:com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest@26be92ad]" name="verifyUserRegistrationStepTwo" duration-ms="880" started-at="2018-08-22T02:14:34Z" data-provider="getData" finished-at="2018-08-22T02:14:35Z">
+        <test-method status="PASS" signature="verifyUserRegistrationStepTwo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:10, instance:com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest@26be92ad]" name="verifyUserRegistrationStepTwo" duration-ms="1028" started-at="2018-08-22T02:37:46Z" data-provider="getData" finished-at="2018-08-22T02:37:47Z">
           <params>
             <param index="0">
               <value>
@@ -206,11 +206,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserRegistrationStepTwo -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest@26be92ad]" name="closeBrowser" is-config="true" duration-ms="106" started-at="2018-08-22T02:14:35Z" finished-at="2018-08-22T02:14:35Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest@26be92ad]" name="closeBrowser" is-config="true" duration-ms="102" started-at="2018-08-22T02:37:47Z" finished-at="2018-08-22T02:37:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="afterAMethod(org.testng.ITestResult)[pri:0, instance:com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest@26be92ad]" name="afterAMethod" is-config="true" duration-ms="0" started-at="2018-08-22T02:14:35Z" finished-at="2018-08-22T02:14:35Z">
+        <test-method status="PASS" signature="afterAMethod(org.testng.ITestResult)[pri:0, instance:com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest@26be92ad]" name="afterAMethod" is-config="true" duration-ms="0" started-at="2018-08-22T02:37:47Z" finished-at="2018-08-22T02:37:47Z">
           <params>
             <param index="0">
               <value>
@@ -221,7 +221,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterAMethod -->
-        <test-method status="PASS" signature="cleanup()[pri:0, instance:com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest@26be92ad]" name="cleanup" is-config="true" duration-ms="275" started-at="2018-08-22T02:14:35Z" finished-at="2018-08-22T02:14:35Z">
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest@26be92ad]" name="cleanup" is-config="true" duration-ms="255" started-at="2018-08-22T02:37:47Z" finished-at="2018-08-22T02:37:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanup -->
