@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest">
+        <methods>
+          <include name="invokeBrowser"/>
+          <include name="cleanup"/>
+          <include name="initialization"/>
+          <include name="verifyBlankPassword"/>
+          <include name="verifyInvalidEmail"/>
+          <include name="verifyRegistrationPage"/>
+          <include name="verifyBlankEmailId"/>
+          <include name="verifyBlankEmailPassword"/>
+          <include name="verifyInvalidPassword"/>
+          <include name="verifyUserRegistrationStepTwo" invocation-numbers="0"/>
+          <include name="closeBrowser"/>
+          <include name="afterAMethod"/>
+        </methods>
+      </class> <!-- com.Bonify.testcases.BonifyMemberLoginLogoutSignUpTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
